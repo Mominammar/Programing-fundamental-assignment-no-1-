@@ -1,0 +1,52 @@
+
+1st code
+ #include<stdio.h>
+#include<conio.h>
+{
+int main ()
+float celcius=5,fahrenheit;
+fahrenheit = (celcius * 1.8 ) +32;
+printf("%f celcius = %f fahrenheit",celcius, fahrenheit);
+getch();
+ 2nd code
+ #include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a=30;
+int b=71;
+printf("the sum of a&b %d",a+b);
+getch();
+}
+3rd code
+#include <stdio.h>
+#include <conio.h>
+int main() {
+    float fahrenheit, celsius;
+
+    // Ask the user to enter temperature in Fahrenheit
+    printf("the temperature in Fahrenheit is 60: ");
+    scanf("%f", &fahrenheit);
+
+    // Convert Fahrenheit to Celsius
+    celsius = (fahrenheit - 32) * 5 / 9;
+
+    // Display the result
+    printf("Temperature in Celsius: %.2f\n", celsius);
+
+    getch();
+} 
+4th code
+ #include <stdio.h>
+#include <conio.h>
+void main(void)
+{
+int number;
+int square;
+printf ("The integer of 60 is %d\n");
+scanf("%d",& number);
+square=5;
+printf("the square of %d is %d\n",number,square);
+getch();
+}
+ 
